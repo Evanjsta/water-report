@@ -3,25 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Shearwater Pool Water Qaulity</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </html>
 <body>
     <header>
-        <h1>Welcome to the Home Page</h1>
-        <nav>
-            <ul>
-                <li><a href="{{ url_for('home') }}">Home</a></li>
-                <li><a href="{{ url_for('about') }}">About</a></li>
-                <li><a href="{{ url_for('contact') }}">Contact</a></li>
-            </ul>
-        </nav>
+        <h1 style="font-size: 5vw;color: aquamarine;text-align: center;" >The Shearwater Pool Report</h1>
+        
     </header>
 
     <main>
-        <h2>Featured Articles</h2>
-        <div class="articles">
-            {% for article in articles %}
-                <div class="article">
+        
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQo_EJgdNymUFI1X9bLteOyzzk2E9UUv5x6ItYu0Kfef9GU4TPUzPzih02lnfV5MFIavuGlKZWCT111/pubhtml?widget=true&amp;headers=false" 
+            height="300" 
+            width="800"
+            frameborder="0"
+            style="display: block;margin: 0 auto; max-width: 100%;"
+             ></iframe>
+             <div class="row">
+                <div class="column" style="text-align: center;">
+                    <p><a href="https://www.w3schools.com/html/html_links.asp" style="font-size: x-large;">How the Water is Tested</a></p>
+                    <p><a href="https://www.w3schools.com/html/html_links.asp" style="font-size: x-large;">What the Results Mean</a></p>
+                    <p><a href="https://www.w3schools.com/html/html_links.asp" style="font-size: x-large;">How to Test Your Pool Water</a></p>
+                    <p><a href="https://www.w3schools.com/html/html_links.asp" style="font-size: x-large;">How You Can Help Keep the Water Safe</a></p>
+                </div>
+             </div> 
+            
 </body>
