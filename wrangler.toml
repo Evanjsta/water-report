@@ -1,0 +1,14 @@
+name = "water-report"
+main = "src/worker.js"
+compatibility_date = "2025-05-13"
+workers_dev = true  # Ensure the worker is accessible at the .workers.dev domain
+
+# Configure static file serving
+[site]
+bucket = "."  # Use current directory as the site root
+include = ["*.html"]  # Include all HTML files
+
+# No build step needed for simple HTML
+[build]
+command = ""
+
