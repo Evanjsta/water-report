@@ -15,7 +15,7 @@ build:
   # Cloudflare Pages will deploy the contents of this directory.
   # Replace './public' with the actual path to the folder containing your index.html file
   # relative to the root of your repository.
-  publish: ./ 
+  publish: 
 
 # Define any environment variables needed during the build process.
 # This is usually not needed for simple static sites.
