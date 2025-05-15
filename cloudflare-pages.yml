@@ -1,0 +1,27 @@
+# This is a basic example for a static site deployed to Cloudflare Pages.
+# This file is optional for simple static sites without a build step.
+
+# Define the version of the configuration file format.
+version: 1
+
+# Define the build configuration.
+build:
+  # Specify the command to run to build your project.
+  # For a simple static site with no build process, this can be left empty or omitted.
+  # If you had a build step (e.g., compiling SASS, bundling JS), you'd put the command here.
+  command: "" # No build command needed for a purely static site
+
+  # Specify the directory containing the build output (your static files).
+  # Cloudflare Pages will deploy the contents of this directory.
+  # Replace './public' with the actual path to the folder containing your index.html file
+  # relative to the root of your repository.
+  publish: ./water-report 
+
+# Define any environment variables needed during the build process.
+# This is usually not needed for simple static sites.
+# env:
+#   MY_VARIABLE: "some_value"
+
+# Define specific Node.js version if needed.
+# This is generally only required if your build command depends on a specific Node.js version.
+# node_version: 18 # Example: Use Node.js version 18
