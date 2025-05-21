@@ -2,7 +2,7 @@
 # This file is optional for simple static sites without a build step.
 
 # Define the version of the configuration file format.
-version: 1
+versison: 1
 
 # Define the build configuration.
 build:
